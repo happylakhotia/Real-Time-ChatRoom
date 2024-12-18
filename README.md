@@ -1,4 +1,4 @@
-# 🚀 My First Full-Stack Real-Time Chat Room 🌐
+# 🚀Full-Stack Real-Time Chat Room 🌐
 
 Developed using Node.js, Express, Socket.IO, and vanilla JavaScript, this chat room offers a seamless group communication experience with some exciting features:
 
