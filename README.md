@@ -4,9 +4,17 @@ Developed using Node.js, Express, Socket.IO, and vanilla JavaScript, this chat r
 
 Key Features:
 ✅ Real-Time Messaging: Messages are instantly broadcasted to all users.
+
+
 ✅ Join/Leave Notifications: Stay updated when users join or leave the chat.
+
+
 ✅ Notification Sounds: A subtle "ting" plays for every new incoming message.
+
+
 ✅ Interactive UI: A dynamic and responsive frontend that enhances the chat experience.
+
+
 ✅ Full-Stack Integration: End-to-end functionality combining backend and frontend seamlessly.
 
 What I Learned:
