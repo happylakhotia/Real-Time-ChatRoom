@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Chat-App</title>
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="chat-logo.png" alt="Chat Logo">
+        <h1>Welcome to NodEx Chat App</h1>
+    </nav>
+    <div class="container" id="chat-container">
+    </div>
+
+    <div class="send">
+        <form id="send-container">
+            <input type="text" name="msginp" id="msginp" placeholder="Enter your message" autocomplete="off">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>

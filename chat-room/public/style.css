@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(245, 245, 245);
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+}
+
+h1 {
+    margin-top: 8px;
+    font-size: 28px;
+    color: rgb(44, 62, 80);
+    text-align: center;
+}
+
+.container {
+    max-width: 925px;
+    margin: auto;
+    height: 60vh;
+    background-color: rgb(236, 240, 241);
+    border-radius: 9px;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    background-color: rgb(230, 126, 34);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(41, 128, 185);
+    width: 24%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+#send-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1085px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    gap: 10px; 
+}
+
+#msginp {
+    width: 75%; 
+    border: 2px solid rgb(41, 128, 185);
+    border-radius: 12px;
+    height: 40px;
+    background-color: rgb(189, 195, 199);
+    padding-left: 12px;
+    font-size: 18px;
+    color: rgb(44, 62, 80);
+    transition: border-color 0.3s ease;
+}
+
+#msginp:focus {
+    border-color: rgb(52, 152, 219); 
+    outline: none; 
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid rgb(41, 128, 185); 
+    border-radius: 12px; 
+    height: 40px; 
+    background-color: rgb(46, 204, 113);
+    width: 20%; 
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: rgb(39, 174, 96); 
+    transform: scale(1.05);
+}
